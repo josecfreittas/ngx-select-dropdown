@@ -65,7 +65,9 @@
     "tslint": "tslint",
     "compodoc": "compodoc -p tsconfig.json"
   },
-  "dependencies": {},
+  "dependencies": {
+    "@angular-devkit/schematics": "^9.0.6"
+  },
   "peerDependencies": {
     "@angular/common": "^4.0.0",
     "@angular/core": "^4.0.0",
