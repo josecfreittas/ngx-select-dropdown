@@ -348,6 +348,11 @@ export class SelectDropDownComponent
    * @param index:  index of the item
    */
   public deselectItem(item: any, index: number) {
+
+    if (this.selectedItems.length <= 1 && this.config.mustHaveAValue) {
+      return;
+    }
+
     this.selectedItems.forEach((element: any, i: number) => {
       /* istanbul ignore else */
       if (item === element) {
@@ -449,7 +454,8 @@ export class SelectDropDownComponent
       noResultsFound: "No results found!",
       moreText: "more",
       searchOnKey: null,
-      clearOnSelection: false
+      clearOnSelection: false,
+      mustHaveAValue: false
     };
     /* istanbul ignore else */
     if (this.config === "undefined" || Object.keys(this.config).length === 0) {

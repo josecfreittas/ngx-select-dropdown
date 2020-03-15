@@ -1,6 +1,6 @@
 {
   "name": "ngx-select-dropdown",
-  "version": "1.4.0",
+  "version": "1.5.0",
   "description": "A angular(4+) select dropdown for single select or multiselct module.",
   "main": "./dist/index.umd.js",
   "module": "./dist/index.js",
@@ -65,7 +65,9 @@
     "tslint": "tslint",
     "compodoc": "compodoc -p tsconfig.json"
   },
-  "dependencies": {},
+  "dependencies": {
+    "@angular-devkit/schematics": "^9.0.6"
+  },
   "peerDependencies": {
     "@angular/common": ">=4.0.0",
     "@angular/core": ">=4.0.0",
@@ -92,6 +94,7 @@
     "concurrently": "^3.4.0",
     "copy-webpack-plugin": "^4.5.1",
     "css-loader": "^0.28.10",
+    "gh-pages": "^1.0.0",
     "gulp": "^4.0.2",
     "gulp-inline-ng2-template": "^4.0.0",
     "istanbul-instrumenter-loader": "^3.0.0",
