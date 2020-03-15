@@ -1,5 +1,5 @@
 {
-  "name": "ngx-select-dropdown",
+  "name": "@josecfreittas/ngx-select-dropdown",
   "version": "1.5.0",
   "description": "A angular(4+) select dropdown for single select or multiselct module.",
   "main": "./dist/index.umd.js",
@@ -38,12 +38,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/manishjanky/ngx-select-dropdown.git"
+    "url": "https://github.com/josecfreittas/ngx-select-dropdown.git"
   },
   "bugs": {
-    "url": "https://github.com/manishjanky/ngx-select-dropdown/issues"
+    "url": "https://github.com/josecfreittas/ngx-select-dropdown/issues"
   },
-  "homepage": "https://github.com/manishjanky/ngx-select-dropdown#readme",
+  "homepage": "https://github.com/josecfreittas/ngx-select-dropdown#readme",
   "scripts": {
     "build": "npm run build:esm && npm run build:umd",
     "build:esm": "gulp inline-templates && npm run ngcompile",
